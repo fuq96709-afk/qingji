@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "轻记",
+    "slug": "qingji",
+    "version": "1.0.4",
+    "orientation": "portrait",
+    "icon": "./assets/qingji-icon-v2.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.qingji.ledger"
+    },
+    "android": {
+      "allowBackup": false,
+      "adaptiveIcon": {
+        "backgroundColor": "#F8F5EE",
+        "foregroundImage": "./assets/qingji-icon-v2.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.qingji.ledger",
+      "versionCode": 6
+    },
+    "web": {
+      "favicon": "./assets/qingji-icon-v2.png"
+    },
+    "plugins": [
+      "expo-sharing",
+      "expo-font",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "buildArchs": [
+              "arm64-v8a"
+            ],
+            "enableMinifyInReleaseBuilds": true,
+            "enableShrinkResourcesInReleaseBuilds": true
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "11e2791f-f19c-49fc-b859-ded86547667e"
+      }
+    }
+  }
+}
