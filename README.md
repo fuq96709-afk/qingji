@@ -8,7 +8,7 @@
 
 当前版本：**1.0.4**（Android versionCode 6），安装包约 **22.43 MB**。
 
-- [下载 APK](https://expo.dev/artifacts/eas/gDOlTR9vPshhWeM6Lp1dDe6z0iinSGJiOvqAHO_tHag.apk)
+- [下载 APK](https://github.com/fuq96709-afk/qingji/releases/download/v1.0.4/qingji-1.0.4-android.apk)
 - [GitHub 版本发布页](https://github.com/fuq96709-afk/qingji/releases)
 
 当前 APK 面向 **Android 7 及以上的 ARM64 手机**，不限三星；不包含 32 位 ARM 或 x86 安装包。各品牌的权限、后台运行和实际显示仍需验证。
